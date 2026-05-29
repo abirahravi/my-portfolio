@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abira Raveendran | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Devicon for Programming Language Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header>
+        <div class="logo">Abira<span>.</span></div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle" id="mobile-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Abira Raveendran</span></h1>
+            <p>I am a <span id="dynamic-text">Software Engineer - Intern</span></p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn">Get In Touch</a>
+                <a href="https://github.com/abirahravi" target="_blank" class="btn btn-outline" title="GitHub"><i class="fab fa-github"></i> GitHub</a>
+                <!-- LinkedIn Button Added Here -->
+                <a href="https://linkedin.com/in/your-username" target="_blank" class="btn btn-outline btn-linkedin" title="LinkedIn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <div class="about-img">
+                <img src="profile.jpg" alt="Abira Raveendran" onerror="this.src='https://via.placeholder.com/250'">
+            </div>
+            <div class="about-text">
+                <p>Passionate and self-motivated Software Engineering student seeking an internship opportunity to gain industry exposure, improve technical expertise, and contribute innovative solutions to real-world challenges.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <h2>Education</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2024 - 2026</div>
+                <div class="timeline-content">
+                    <h3>Higher Diploma in Computing and Software Engineering</h3>
+                    <p>ICBT Campus</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2019 - 2021</div>
+                <div class="timeline-content">
+                    <h3>G.C.E (A/L) - Maths Stream</h3>
+                    <p>J/Nelliady Central College</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>My Skills & Languages</h2>
+        <div class="skills-container">
+            
+            <!-- Technical / Programming Languages Section -->
+            <div class="skills-box">
+                <h3>Programming Languages & Tech</h3>
+                <div class="skills-grid">
+                    <div class="skill-card"><i class="devicon-cplusplus-plain colored"></i> <p>C++</p></div>
+                    <div class="skill-card"><i class="devicon-csharp-plain colored"></i> <p>C#</p></div>
+                    <div class="skill-card"><i class="devicon-java-plain colored"></i> <p>Java</p></div>
+                    <div class="skill-card"><i class="devicon-html5-plain colored"></i> <p>HTML5</p></div>
+                    <div class="skill-card"><i class="devicon-css3-plain colored"></i> <p>CSS3</p></div>
+                    <div class="skill-card"><i class="devicon-javascript-plain colored"></i> <p>JavaScript</p></div>
+                    <div class="skill-card"><i class="devicon-php-plain colored"></i> <p>PHP</p></div>
+                </div>
+            </div>
+
+            <!-- Professional / Soft Skills Section -->
+            <div class="skills-box" style="margin-top: 50px;">
+                <h3>Professional Skills</h3>
+                <div class="skills-grid">
+                    <div class="skill-card"><i class="fas fa-lightbulb"></i> <p>Problem Solving</p></div>
+                    <div class="skill-card"><i class="fas fa-users"></i> <p>Team Collaboration</p></div>
+                    <div class="skill-card"><i class="fas fa-clock"></i> <p>Time Management</p></div>
+                    <div class="skill-card"><i class="fas fa-bolt"></i> <p>Quick Learner</p></div>
+                    <div class="skill-card"><i class="fas fa-sync-alt"></i> <p>Adaptability</p></div>
+                    <div class="skill-card"><i class="fas fa-comments"></i> <p>Communication Skills</p></div>
+                </div>
+            </div>
+
+            <!-- Languages Box -->
+            <div class="languages-box">
+                <h3>Languages</h3>
+                <div class="language-tag"><i class="fas fa-language"></i> English</div>
+                <div class="language-tag"><i class="fas fa-language"></i> Tamil</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <div class="project-icon"><i class="fab fa-android"></i></div>
+                <h3>Smart Family Financial Management System</h3>
+                <p class="tech-stack">Java, Android Studio, Firebase Auth, Cloud Firestore</p>
+                <p class="project-desc">Developed an Android application to track income, expenses, loans, and payment schedules with secure user authentication and real-time cloud database integration.</p>
+            </div>
+            <!-- Project 2 -->
+            <div class="project-card">
+                <div class="project-icon"><i class="fas fa-globe"></i></div>
+                <h3>SkillPro Institute - Web Application</h3>
+                <p class="tech-stack">PHP, MySQL, HTML, CSS, JavaScript, VS Code</p>
+                <p class="project-desc">Built a database-driven web system for course management and online student registration with search functionality, inquiry handling, and admin dashboard features.</p>
+            </div>
+            <!-- Project 3 -->
+            <div class="project-card">
+                <div class="project-icon"><i class="fas fa-code"></i></div>
+                <h3>SOC-Based Order Management System (Cozy Comfort)</h3>
+                <p class="tech-stack">C#, ASP.NET Core Web API, MVC, SQL Server, Swagger</p>
+                <p class="project-desc">Developed a Service-Oriented Architecture (SOA) solution with RESTful APIs and an MVC client application to manage orders between Manufacturer, Distributor, and Seller using CRUD operations.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p class="contact-sub">Let's connect! I am always open to discussing internship opportunities and projects.</p>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <p>abirahravi@gmail.com</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h4>Phone</h4>
+                        <p>0763859482</p>
+                    </div>
+                </div>
+                <!-- LinkedIn Link Added to Contact Info -->
+                <div class="info-item">
+                    <i class="fab fa-linkedin-in"></i>
+                    <div>
+                        <h4>LinkedIn</h4>
+                        <p><a href="https://linkedin.com/in/your-username" target="_blank" style="color: var(--text-main); text-decoration: none;">Abira Raveendran</a></p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>Address</h4>
+                        <p>Vinayagar veethy, Alvai South, Alvai Jaffna (Jaffna-40000)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Abira Raveendran. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
